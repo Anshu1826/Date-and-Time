@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    border: 2px solid gold;
+    font-size: 22px;
+    /* height: 30px; */
+    /* width: 180px; */
+    display: block;
+    color: teal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 12px auto;
+    text-align: center;
+    cursor: pointer;
+}
+input:active {
+    transform: scale(0.9);
+    transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    transition-duration: 300ms;
+}
+.set { 
+    display: block;
+    margin: 24px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    border-radius: 4%;
+    scroll-behavior: smooth;
+    width: 400px;
+    color: red;
+    background-color: lightblue;
+}
